@@ -47,3 +47,19 @@ Once you are connected to your instance, you can set up the Apache web server.
     ```bash
     cd /var/www/html
     ```
+
+Some Access issue troubleshoots
+
+Here are the commands I used to fix the PEM file permissions:
+pwsh
+What each command does:
+
+1. icacls "CloudComputing101.pem" /inheritance:r
+•  Removes inherited permissions from parent directories
+•  The /inheritance:r flag removes inheritance and keeps only explicitly set permissions
+2. icacls "CloudComputing101.pem" /grant:r "Aftab S:F"
+•  Grants full control (F) to your user account only
+•  The /grant:r flag replaces existing permissions
+•  "Aftab S:F" specifies your username and full control permission
+3. icacls "CloudComputing101.pem" 
+•  Shows the current permissions to verify they're correct
