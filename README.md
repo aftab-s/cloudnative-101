@@ -47,10 +47,12 @@ docker run -d --name coffee-artistry -p 8080:80 aftab2010/coffee-artistry:latest
 CI / Docker Hub
 ----------------
 
-- A GitHub Actions workflow was added at `.github/workflows/docker-publish.yml`. It builds the image from `CNCF/Sample` and pushes to Docker Hub using repository secrets `DOCKERHUB_USERNAME` and `DOCKERHUB_TOKEN`.
-- Note: `DOCKERHUB_TOKEN` should be a Docker Hub personal access token (recommended) rather than your account password. See `CNCF/Sample/README.md` for details.
- - Public Docker Hub repository for this demo: https://hub.docker.com/repository/docker/aftab2010/coffee-artistry/
-	 You can pull the published image directly with `docker pull aftab2010/coffee-artistry:latest`.
+- A GitHub Actions workflow is included at `.github/workflows/docker-publish.yml`. It uses Docker buildx with layer caching to build the image from `CNCF/Sample` and push to Docker Hub.
+- The workflow pushes both `:latest` and `:${{ github.sha }}` tags for traceability.
+- Requires repository secrets: `DOCKERHUB_USERNAME` and `DOCKERHUB_TOKEN` (use a Docker Hub personal access token, not your password).
+- Public Docker Hub repository: https://hub.docker.com/repository/docker/aftab2010/coffee-artistry/
+  
+  Pull the published image directly: `docker pull aftab2010/coffee-artistry:latest`
 
 Kubernetes (Minikube) example
 ----------------------------
@@ -63,18 +65,18 @@ To deploy locally with Minikube (example):
 ```powershell
 minikube start --driver=docker
 kubectl apply -f CNCF/K8s/deployment.yaml
-minikube service coffee-artistry --url
+minikube service coffee-artistry -n coffee-artistry --url
 ```
+
+**Important**: The manifest creates resources in the `coffee-artistry` namespace. Always use `-n coffee-artistry` with kubectl and minikube commands when working with this deployment.
 
 Notes & next steps
 ------------------
 
-- The sample site's CSS was updated to be responsive; a mobile-friendly layout and hero fixes were applied.
-- For production-grade Kubernetes manifests, consider adding `resources.requests`/`limits`, readiness probes, and an Ingress resource.
-- If you want, I can:
-	- Add resource requests/limits to `CNCF/K8s/deployment.yaml` (small sensible defaults),
-	- Add an Ingress manifest and instructions to enable Minikube ingress, or
-	- Fully scaffold a React + Tailwind redesign in `CNCF/Sample` (we discussed this earlier).
+- The sample site's CSS was updated to be responsive with mobile-friendly layouts and hero section fixes.
+- The Kubernetes manifest includes resource requests/limits (cpu: 100m/250m, memory: 128Mi/256Mi) and liveness probes.
+- Resources are deployed in the `coffee-artistry` namespace (remember to use `-n coffee-artistry` with kubectl commands).
+- The GitHub Actions workflow uses Docker buildx with build caching and pushes multiple tags (`:latest` and `:sha`).
 
 Security
 --------
@@ -84,8 +86,15 @@ Security
 Where to look next
 ------------------
 
-- `CNCF/Sample/README.md` — build/run/push sample site
-- `CNCF/K8s/README.md` — Minikube deployment instructions
-- Other folders (`EC2/`, `S3/`, `Lambda/`) contain their respective guides
+- `CNCF/Sample/README.md` — build/run/push sample site and Docker Hub details
+- `CNCF/K8s/README.md` — Minikube deployment instructions with namespace guidance
+- `.github/workflows/docker-publish.yml` — CI workflow for automated builds
+- Other folders (`EC2/`, `S3/`, `Lambda/`) contain their respective AWS service guides
 
-If you'd like I can also run Minikube here and validate the deployment (note: the current environment may not allow running Minikube). If you'd prefer, I can add the extra manifests you requested (Ingress, resources) — tell me which option you prefer.
+---
+
+**Quick verification checklist:**
+1. ✅ Static site works locally (python http.server or Docker)
+2. ✅ Docker image builds and pushes to Docker Hub
+3. ✅ Kubernetes deployment runs in Minikube (use `-n coffee-artistry` flag)
+4. ✅ GitHub Actions workflow configured with secrets

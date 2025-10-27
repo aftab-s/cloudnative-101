@@ -58,6 +58,8 @@ minikube start --driver=docker
 kubectl apply -f CNCF/K8s/deployment.yaml
 ```
 
+Note: The manifest creates resources in the `coffee-artistry` namespace. Make sure to use the `-n coffee-artistry` flag with kubectl/minikube commands when interacting with these resources.
+
 deployment.yaml
 ```yaml
 apiVersion: apps/v1
@@ -112,7 +114,7 @@ kubectl apply -f deployment.yaml
 6. Expose the service to your host and open it in a browser. The easiest way with Minikube is:
 
 ```powershell
-minikube service coffee-artistry --url
+minikube service coffee-artistry -n coffee-artistry --url
 
 # The command prints a URL like http://192.168.49.2:30080 — open that in your browser.
 ```
@@ -121,7 +123,7 @@ Alternatively you can forward a port:
 
 ```powershell
 # Forward cluster port 80 to local 8080
-kubectl port-forward svc/coffee-artistry 8080:80
+kubectl port-forward -n coffee-artistry svc/coffee-artistry 8080:80
 # Then open http://localhost:8080
 ```
 
@@ -154,7 +156,7 @@ docker images | Select-String coffee-artistry
 4. Open the service with:
 
 ```powershell
-minikube service coffee-artistry --url
+minikube service coffee-artistry -n coffee-artistry --url
 ```
 
 Notes and troubleshooting
@@ -165,10 +167,10 @@ Notes and troubleshooting
 - To inspect resources:
 
 ```powershell
-kubectl get pods -o wide
-kubectl get svc
-kubectl logs deployment/coffee-artistry -c coffee-artistry
-kubectl describe pod <pod-name>
+kubectl get pods -n coffee-artistry -o wide
+kubectl get svc -n coffee-artistry
+kubectl logs -n coffee-artistry deployment/coffee-artistry -c coffee-artistry
+kubectl describe pod -n coffee-artistry <pod-name>
 ```
 
 - To stop and delete the demo resources:
