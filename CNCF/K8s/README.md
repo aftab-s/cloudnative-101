@@ -7,6 +7,11 @@ This document shows a minimal example to run the `aftab2010/coffee-artistry` sta
 
 This is intentionally simple and meant for local development / testing.
 
+Important resource names
+------------------------
+
+The manifest in this folder creates a Deployment named `coffee-container` and a Service named `coffee-svc`, both in the `coffee-artistry` namespace. The README examples below use those names when showing kubectl/minikube commands.
+
 Prerequisites
 -------------
 
@@ -65,7 +70,8 @@ deployment.yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: coffee-artistry
+  name: coffee-container
+  namespace: coffee-artistry
 spec:
   replicas: 2
   selector:
@@ -77,8 +83,15 @@ spec:
         app: coffee-artistry
     spec:
       containers:
-        - name: coffee-artistry
+        - name: coffee-container
           image: aftab2010/coffee-artistry:latest
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "128Mi"
+            limits:
+              cpu: "250m"
+              memory: "256Mi"
           ports:
             - containerPort: 80
           livenessProbe:
@@ -92,7 +105,8 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: coffee-artistry
+  name: coffee-svc
+  namespace: coffee-artistry
 spec:
   type: NodePort
   selector:
@@ -114,7 +128,7 @@ kubectl apply -f deployment.yaml
 6. Expose the service to your host and open it in a browser. The easiest way with Minikube is:
 
 ```powershell
-minikube service coffee-artistry -n coffee-artistry --url
+minikube service coffee-svc -n coffee-artistry --url
 
 # The command prints a URL like http://192.168.49.2:30080 — open that in your browser.
 ```
@@ -123,7 +137,7 @@ Alternatively you can forward a port:
 
 ```powershell
 # Forward cluster port 80 to local 8080
-kubectl port-forward -n coffee-artistry svc/coffee-artistry 8080:80
+kubectl port-forward -n coffee-artistry svc/coffee-svc 8080:80
 # Then open http://localhost:8080
 ```
 
@@ -156,7 +170,7 @@ docker images | Select-String coffee-artistry
 4. Open the service with:
 
 ```powershell
-minikube service coffee-artistry -n coffee-artistry --url
+minikube service coffee-svc -n coffee-artistry --url
 ```
 
 Notes and troubleshooting
@@ -169,7 +183,7 @@ Notes and troubleshooting
 ```powershell
 kubectl get pods -n coffee-artistry -o wide
 kubectl get svc -n coffee-artistry
-kubectl logs -n coffee-artistry deployment/coffee-artistry -c coffee-artistry
+kubectl logs -n coffee-artistry deployment/coffee-container -c coffee-container
 kubectl describe pod -n coffee-artistry <pod-name>
 ```
 
@@ -186,7 +200,7 @@ Security note
 
 - For CI (GitHub Actions) use a Docker Hub access token stored as a secret (not your account password). The README in `CNCF/Sample` explains `DOCKERHUB_TOKEN` and best practices.
 
-That's it — you should now have a simple, local Kubernetes deployment running `aftab2010/coffee-artistry` on Minikube.
+That's it — you should now have a simple, local Kubernetes deployment running `aftab2010/coffee-artistry` on Minikube. The Deployment is `coffee-container` and the Service is `coffee-svc` in namespace `coffee-artistry`.
 
 Public Docker Hub repository
 ---------------------------

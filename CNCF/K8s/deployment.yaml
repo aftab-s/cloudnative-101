@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: coffee-artistry
+  name: coffee-container
   namespace: coffee-artistry
 spec:
   replicas: 2
@@ -14,7 +14,7 @@ spec:
         app: coffee-artistry
     spec:
       containers:
-        - name: coffee-artistry
+        - name: coffee-container
           image: aftab2010/coffee-artistry:latest
           resources:
             requests:
@@ -36,7 +36,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: coffee-artistry
+  name: coffee-svc
   namespace: coffee-artistry
 spec:
   type: NodePort

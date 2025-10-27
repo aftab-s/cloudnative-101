@@ -53,29 +53,29 @@ CI / Docker Hub
 - Public Docker Hub repository: https://hub.docker.com/repository/docker/aftab2010/coffee-artistry/
   
   Pull the published image directly: `docker pull aftab2010/coffee-artistry:latest`
-
+ 
 Kubernetes (Minikube) example
 ----------------------------
 
 - A minimal Kubernetes manifest is provided at `CNCF/K8s/deployment.yaml` (Deployment + NodePort Service) which runs the image `aftab2010/coffee-artistry:latest`.
-- Full Minikube instructions are in `CNCF/K8s/README.md` (it shows two workflows: push to Docker Hub and pull from cluster, or build inside Minikube's Docker daemon so you don't need to push).
+- Full Minikube instructions are in `CNCF/K8s/README.md` (it shows two workflows: push to Docker Hub and pull from cluster, or build inside Minikube's Docker daemon so you don't need to push). 
 
 To deploy locally with Minikube (example):
 
 ```powershell
 minikube start --driver=docker
 kubectl apply -f CNCF/K8s/deployment.yaml
-minikube service coffee-artistry -n coffee-artistry --url
+minikube service coffee-svc -n coffee-artistry --url
 ```
 
-**Important**: The manifest creates resources in the `coffee-artistry` namespace. Always use `-n coffee-artistry` with kubectl and minikube commands when working with this deployment.
+**Important**: The manifest creates resources in the `coffee-artistry` namespace. The Deployment is `coffee-container` and the Service is `coffee-svc`. Always use `-n coffee-artistry` with kubectl and minikube commands when working with this deployment.
 
 Notes & next steps
 ------------------
 
 - The sample site's CSS was updated to be responsive with mobile-friendly layouts and hero section fixes.
 - The Kubernetes manifest includes resource requests/limits (cpu: 100m/250m, memory: 128Mi/256Mi) and liveness probes.
-- Resources are deployed in the `coffee-artistry` namespace (remember to use `-n coffee-artistry` with kubectl commands).
+- Resources are deployed in the `coffee-artistry` namespace (remember to use `-n coffee-artistry` with kubectl commands). The Deployment created is named `coffee-container` and the Service `coffee-svc`.
 - The GitHub Actions workflow uses Docker buildx with build caching and pushes multiple tags (`:latest` and `:sha`).
 
 Security
@@ -96,5 +96,5 @@ Where to look next
 **Quick verification checklist:**
 1. ✅ Static site works locally (python http.server or Docker)
 2. ✅ Docker image builds and pushes to Docker Hub
-3. ✅ Kubernetes deployment runs in Minikube (use `-n coffee-artistry` flag)
+3. ✅ Kubernetes deployment runs in Minikube (use `-n coffee-artistry` flag; Deployment: `coffee-container`, Service: `coffee-svc`)
 4. ✅ GitHub Actions workflow configured with secrets
