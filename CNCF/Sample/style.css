@@ -1,0 +1,1037 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+input {
+  border: none;
+}
+
+body {
+  width: 100%;
+
+}
+
+.liquid-maestro-desktop-VzE {
+  box-sizing: border-box;
+  padding-bottom: 0.1rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #181818;
+}
+
+.liquid-maestro-desktop-VzE .auto-group-ftfg-UbG {
+  margin-bottom: 2.2374rem;
+  width: 100%;
+  height: 280.8071rem;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.opening-hours-gqk {
+  width: 74.6rem;
+  height: 26.3083rem;
+  position: absolute;
+  left: 16.2rem;
+  top: 228.3rem;
+}
+
+.opening-hours-nNz {
+  margin-bottom: 5.6583rem;
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 1.2000000212;
+  color: #be825e;
+  font-family: Noto Serif, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+}
+
+.hours-1oU {
+  box-sizing: border-box;
+  padding: 1rem 0rem 0rem 0rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-top: dashed 0.05rem #ffffff;
+  border-bottom: dashed 0.05rem #ffffff;
+}
+
+.mon-thu-5-pm-12-am-vfY {
+  margin-bottom: 1rem;
+  font-size: 2.4rem;
+  font-weight: 300;
+  line-height: 1.3999999364;
+  letter-spacing: -0.048rem;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+  flex-shrink: 0;
+}
+
+.mon-thu-5-pm-12-am-vfY-sub-2 {
+  margin-left: 10px;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.3999999364;
+  letter-spacing: -0.048rem;
+  color: #fc9846;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+
+.line-3-gge {
+  margin-bottom: 0.95rem;
+  width: 100%;
+  height: 0.05rem;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+
+.fri-sat-5-pm-2-am-b2v {
+  margin-bottom: 1rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.3999999364;
+  letter-spacing: -0.048rem;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+  flex-shrink: 0;
+}
+
+.fri-sat-5-pm-2-am-b2v-sub-1 {
+  margin-left: 10px;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.3999999364;
+  letter-spacing: -0.048rem;
+  color: #fc9846;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+
+.line-4-MwC {
+  margin-bottom: 0.95rem;
+  width: 100%;
+  height: 0.05rem;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+
+.liquid-maestro-desktop-VzE .auto-group-ftfg-UbG .opening-hours-gqk .hours-1oU .sun-closed-uhp {
+  margin-bottom: 1rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.3999999364;
+  letter-spacing: -0.048rem;
+  color: #fc9846;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.a-stroke-NrJ {
+  width: 100.1512rem;
+  height: 91.5752rem;
+  position: absolute;
+  left: 0;
+  top: 79.4361rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+
+.liquid-maestro-desktop-VzE .auto-group-ftfg-UbG .pexels-cottonbro-studio-4667182-1-6XQ {
+  width: 80.3rem;
+  height: 51.7rem;
+  position: absolute;
+  left: 0;
+  top: 156.5rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+
+.liquid-maestro-desktop-VzE .auto-group-ftfg-UbG .pexels-cottonbro-studio-4667182-4-My8 {
+  width: 80.3rem;
+  height: 51.7rem;
+  position: absolute;
+  left: 80rem;
+  top: 156.5rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+
+.liquid-maestro-desktop-VzE .auto-group-ftfg-UbG .o-stroke-eSS {
+  width: 85.64rem;
+  height: 88.4rem;
+  position: absolute;
+  left: 108.595rem;
+  top: 186.2071rem;
+  object-fit: contain;
+  vertical-align: top;
+  color: fc9846;
+}
+
+.intro-mGA {
+  width: 100.4rem;
+  height: 39.7rem;
+  position: absolute;
+  left: 32.7rem;
+  top: 107.7rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+.liquid-maestro-desktop-VzE .auto-group-ftfg-UbG .intro-mGA .pexels-charlotte-may-5947024-copy-1-5Gr {
+  margin-right: 4.7rem;
+  width: 26rem;
+  height: 39rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+
+.mid-text-header {
+  margin-bottom: 6.6rem;
+  max-width: 69.6rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.385000017;
+  letter-spacing: 0.072rem;
+  color: #ffffff;
+  font-family: Noto Serif, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+
+.mid-text-header-sub-1 {
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1.385000017;
+  letter-spacing: 0.072rem;
+  text-decoration-line: bold;
+  color: #ffffff;
+  font-family: Noto Serif, 'Source Sans Pro';
+}
+
+.mid-text-header-sub-3 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.385000017;
+  letter-spacing: 0.072rem;
+  color: #ffffff;
+  font-family: Noto Serif, 'Source Sans Pro';
+}
+
+.mid-text {
+  max-width: 69.7rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.036rem;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+
+
+
+.pexels-charlotte-may-5947008-1-Ecv {
+  width: 100%;
+  height: 90rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-size: 100% 100%;
+  background-position: center;
+  background-image: url('assets/coffee-process.jpg');
+  background-blend-mode: multiply;
+}
+
+.liquid-maestro-desktop-VzE .auto-group-ftfg-UbG .header-nW2 .line-WqL {
+  width: 154.1897rem;
+  height: 76.7407rem;
+  position: absolute;
+  left: 6.4453rem;
+  top: 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+.liquid-maestro-desktop-VzE .auto-group-ftfg-UbG .header-nW2 .line-WqL .logo-qci {
+  margin: 7.211rem 0.755rem 0rem 0rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.liquid-maestro-desktop-VzE .auto-group-ftfg-UbG .header-nW2 .line-WqL .logo-qci .vector-yD8 {
+  margin: 0rem 0rem 1.217rem 0.2rem;
+  width: 5.9692rem;
+  height: 4.972rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+
+.liquid-maestro-desktop-VzE .auto-group-ftfg-UbG .header-nW2 .line-WqL .logo-qci .coffee-maestro-t5C {
+  max-width: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: Noto Serif, 'Source Sans Pro';
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.liquid-maestro-desktop-VzE .auto-group-ftfg-UbG .header-nW2 .line-WqL .auto-group-5pur-daW {
+  width: 143.4349rem;
+  height: 100%;
+  position: relative;
+}
+
+.vector-1-mAv {
+  width: 150rem;
+  height: 80rem;
+  position: relative;
+  left: -25rem;
+  top: 30.3752rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+
+.ellipse-3-u2E {
+  width: 42.7337rem;
+  height: 42.7337rem;
+  position: absolute;
+  left: 90rem;
+  top: 10rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+
+
+.note-wjc {
+  width: 4.2413rem;
+  height: 9.7235rem;
+  position: absolute;
+  left: 43.0965rem;
+  top: 24.2407rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+
+.liquid-maestro-desktop-VzE .auto-group-ftfg-UbG .header-nW2 .line-WqL .auto-group-5pur-daW .coffee-artistry-HHg {
+  width: 41.1rem;
+  height: 21.4rem;
+  position: absolute;
+  left: 7.6rem;
+  top: 32.9643rem;
+  display: flex;
+  font-size: 10.2rem;
+  font-weight: 700;
+  line-height: 1.0450001137;
+  color: #ffffff;
+  font-family: Noto Serif, 'Source Sans Pro';
+}
+
+.step-into-a-world-of-extraordinary-flavors-and-unrivaled-mixology-expertise-ana {
+  width: 29.7rem;
+  height: 8.4rem;
+  position: absolute;
+  left: 7.856rem;
+  top: 56.5917rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.3850000381;
+  letter-spacing: 0.04rem;
+  color: #ffffff;
+  font-family: Noto Serif, 'Source Sans Pro';
+}
+
+.button-primary-BXU {
+  width: 17.7rem;
+  height: 4.4rem;
+  cursor: pointer;
+  position: absolute;
+  left: 1250px;
+  top: 68rem;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 900;
+  line-height: 1.3625;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: Noto Serif, 'Source Sans Pro';
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.25rem #ffffff;
+  box-sizing: border-box;
+  border-radius: 15px;
+  transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+
+.button-primary-BXU:hover {
+  color: #000000;
+  background-color: aliceblue;
+}
+
+
+.liquid-maestro-desktop-VzE .auto-group-dxgn-oYr .b-Y5c {
+  width: 93.66rem;
+  height: 99.96rem;
+  position: absolute;
+  left: 0;
+  top: 67.1191rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+
+
+.cocktail-menu-Ej8 {
+  width: 141.8059rem;
+  height: 72.3789rem;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+.liquid-maestro-desktop-VzE .auto-group-dxgn-oYr .brewery-specials-wNe {
+  margin: 0rem 0rem 6.955rem 18.006rem;
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 1.2000000212;
+  color: #be825e;
+  font-family: Noto Serif, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+}
+
+.liquid-maestro-desktop-VzE .auto-group-dxgn-oYr .brewery-specials-wNe .brewery-specials-wNe-sub-0 {
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 1.2000000212;
+  color: #be825e;
+  font-family: Noto Serif, 'Source Sans Pro';
+}
+
+.liquid-maestro-desktop-VzE .auto-group-dxgn-oYr .brewery-specials-wNe .brewery-specials-wNe-sub-1 {
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 1.2000000212;
+  color: #be825e;
+  font-family: Noto Serif, 'Source Sans Pro';
+}
+
+.liquid-maestro-desktop-VzE .auto-group-dxgn-oYr .auto-group-j3uq-ZoL {
+  width: 100%;
+  height: 61.0234rem;
+  position: relative;
+}
+
+.liquid-maestro-desktop-VzE .auto-group-dxgn-oYr .auto-group-j3uq-ZoL .cocktail-1-ucJ {
+  width: 47.6rem;
+  height: 33.6327rem;
+  position: absolute;
+  left: 22.3rem;
+  top: 0;
+}
+
+.liquid-maestro-desktop-VzE .auto-group-dxgn-oYr .auto-group-j3uq-ZoL .cocktail-1-ucJ .image-3-2wp {
+  width: 29.2224rem;
+  height: 33.6327rem;
+  position: absolute;
+  left: -50px;
+  top: -30px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('assets/image-3-bg.png');
+}
+
+.liquid-maestro-desktop-VzE .auto-group-dxgn-oYr .auto-group-j3uq-ZoL .cocktail-1-ucJ .symphony-in-gold-iZk {
+  width: 23.4rem;
+  height: 10.1rem;
+  position: absolute;
+  left: 24.2rem;
+  top: 8.769rem;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.2000000363;
+  letter-spacing: 0.084rem;
+  color: #ffffff;
+  font-family: Noto Serif, 'Source Sans Pro';
+}
+
+.liquid-maestro-desktop-VzE .auto-group-dxgn-oYr .auto-group-j3uq-ZoL .cocktail-1-ucJ .symphony-in-gold-iZk .symphony-in-gold-iZk-sub-0 {
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.2000000363;
+  letter-spacing: 0.084rem;
+  color: #ffffff;
+  font-family: Noto Serif, 'Source Sans Pro';
+}
+
+.aged-bourbon-honey-ginger-experience-the-symphony-of-flavors-as-aged-bourbon-blends-seamlessly-with-the-sweetness-of-honey-the-subtle-spice-of-ginger-z9t {
+  width: 19.9rem;
+  height: 9rem;
+  position: absolute;
+  left: 24.2rem;
+  top: 20.451rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.024rem;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+
+.indulgent-harmony-h6E {
+  width: 16.4rem;
+  height: 2.1rem;
+  position: absolute;
+  left: 24.2rem;
+  top: 6.151rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: -0.028rem;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+
+.cocktail-2-zLE {
+  width: 46.7rem;
+  height: 25rem;
+  position: absolute;
+  left: 91.1rem;
+  top: 6.2rem;
+  display: flex;
+  object-fit: cover;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.image-8-XLA {
+  margin-right: 3.3rem;
+  width: 18.7rem;
+  height: 25rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+
+.whimsical-magic-Qer {
+  margin: 0rem 0rem 1.62rem 0.2rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: -0.028rem;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.enchanted-elixir-WC6 {
+  margin-bottom: 1.58rem;
+  max-width: 24.7rem;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.2000000363;
+  letter-spacing: 0.084rem;
+  color: #ffffff;
+  font-family: Noto Serif, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+
+.berries-vodka-elderflower-let-the-enchantment-unfold-as-you-savor-the-magical-blend-of-muddled-berries-premium-vodka-and-a-hint-of-elderflower-liqueur-MM8-sub-0 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: -0.024rem;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+
+.berries-vodka-elderflower-let-the-enchantment-unfold-as-you-savor-the-magical-blend-of-muddled-berries-premium-vodka-and-a-hint-of-elderflower-liqueur-MM8-sub-1 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.024rem;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+
+.footer-d5g {
+  box-sizing: border-box;
+  padding: 4.195rem 3.469rem 27.463rem 5.125rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-size: 100% 218.609%;
+  background-position: 0 -4.9478rem;
+  background-image: url('assets/rectangle-117-bg.png');
+  flex-shrink: 0;
+}
+
+.footer-d5g .auto-group-u5ui-KUJ {
+  margin: 0rem 0rem 1.462rem 5.175rem;
+  width: calc(100% - 5.1749rem);
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.vector-3QJ {
+  margin: 2.505rem 127.3rem 0rem 0rem;
+  width: 7.2rem;
+  height: 5.7916rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+
+.social-icons-Ajp {
+  height: 3.9rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.instagram-7ux {
+  margin-right: 1.0662rem;
+  width: 3.1996rem;
+  height: 100%;
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.liquid-maestro-desktop-VzE .footer-d5g .auto-group-u5ui-KUJ .social-icons-Ajp .instagram-7ux .subtract-N5C {
+  width: 2.1331rem;
+  height: 2.1331rem;
+  position: absolute;
+  left: 0.5333rem;
+  top: 0.838rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+
+.liquid-maestro-desktop-VzE .footer-d5g .auto-group-u5ui-KUJ .social-icons-Ajp .twitter-h7U {
+  margin-right: 1.0662rem;
+  width: 3.1996rem;
+  height: 100%;
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.liquid-maestro-desktop-VzE .footer-d5g .auto-group-u5ui-KUJ .social-icons-Ajp .twitter-h7U .o-dmp {
+  width: 2.5rem;
+  height: 3.9rem;
+  position: absolute;
+  left: 0.3428rem;
+  top: 0;
+  font-size: 3.1996rem;
+  font-weight: 500;
+  line-height: 1.2;
+  font-family: Urbanist, 'Source Sans Pro';
+  white-space: nowrap;
+}
+
+.liquid-maestro-desktop-VzE .footer-d5g .auto-group-u5ui-KUJ .social-icons-Ajp .twitter-h7U .twitter-VZ8 {
+  width: 2.2124rem;
+  height: 1.9307rem;
+  position: absolute;
+  left: 0.4936rem;
+  top: 0.9392rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+
+.liquid-maestro-desktop-VzE .footer-d5g .auto-group-u5ui-KUJ .social-icons-Ajp .facebook-prJ {
+  width: 3.1996rem;
+  height: 100%;
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.liquid-maestro-desktop-VzE .footer-d5g .auto-group-u5ui-KUJ .social-icons-Ajp .facebook-prJ .vector-WUE {
+  width: 2.0636rem;
+  height: 2.0511rem;
+  position: absolute;
+  left: 0.568rem;
+  top: 0.879rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+
+.liquid-maestro-desktop-VzE .footer-d5g .logo-qWW {
+  margin: 0rem 133.166rem 0.207rem 0rem;
+  height: 5.0763rem;
+  flex-shrink: 0;
+}
+
+.liquid-maestro-desktop-VzE .footer-d5g .logo-qWW .liquid-maestro-aU6 {
+  max-width: 30rem;
+  display: flex;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.1;
+  right: 50px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: Noto Serif, 'Source Sans Pro';
+}
+
+.liquid-maestro-desktop-VzE .footer-d5g .world-of-extraordinary-flavors-unrivaled-mixology-expertise-hHp {
+  width: 100%;
+  max-width: 18.3rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.3849999688;
+  letter-spacing: 0.022rem;
+  color: #ffffff;
+  font-family: Noto Serif, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+
+.Credits {
+  position: relative;
+  bottom: -230px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 30rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.3849999688;
+  letter-spacing: 0.022rem;
+  color: #ffffff;
+  font-family: Noto Serif, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+
+.vector-1-9AW{
+  width: 200rem;
+  height: 70rem;
+  margin-left: -100px;
+}
+
+/* --------------------------------------------
+   Responsive tweaks - Mobile First Approach
+ -------------------------------------------- */
+
+/* Tablet and below (1024px) */
+@media (max-width: 1024px) {
+  html { font-size: 56%; }
+
+  /* Header/Hero Section */
+  .header-nW2 {
+    height: auto !important;
+    min-height: 60rem;
+  }
+
+  .pexels-charlotte-may-5947008-1-Ecv {
+    height: 60rem;
+    background-size: cover;
+  }
+
+  .liquid-maestro-desktop-VzE .auto-group-ftfg-UbG .header-nW2 .line-WqL {
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .liquid-maestro-desktop-VzE .auto-group-ftfg-UbG .header-nW2 .line-WqL .logo-qci {
+    margin: 2rem 0;
+  }
+
+  .liquid-maestro-desktop-VzE .auto-group-ftfg-UbG .header-nW2 .line-WqL .auto-group-5pur-daW {
+    width: 100%;
+    height: auto;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+  }
+
+  /* Hero elements - hide decorative vectors on mobile */
+  .vector-1-mAv,
+  .ellipse-3-u2E,
+  .note-wjc {
+    display: none;
+  }
+
+  .liquid-maestro-desktop-VzE .auto-group-ftfg-UbG .header-nW2 .line-WqL .auto-group-5pur-daW .coffee-artistry-HHg {
+    position: static;
+    width: 100%;
+    height: auto;
+    font-size: clamp(4rem, 8vw, 7rem);
+    text-align: center;
+    justify-content: center;
+    margin: 1rem 0;
+  }
+
+  .step-into-a-world-of-extraordinary-flavors-and-unrivaled-mixology-expertise-ana {
+    position: static;
+    width: 90%;
+    height: auto;
+    max-width: 50rem;
+    margin: 2rem auto;
+    text-align: center;
+  }
+
+  .button-primary-BXU {
+    position: static;
+    margin: 2rem auto;
+    left: auto;
+    top: auto;
+  }
+
+  /* Intro Section */
+  .intro-mGA {
+    position: static;
+    width: 100%;
+    height: auto;
+    left: auto;
+    top: auto;
+    margin: 3rem 0;
+    padding: 0 2rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .intro-mGA .auto-group-dbdg-zPp,
+  .intro-mGA .pexels-charlotte-may-5947024-copy-1-5Gr {
+    flex: 1 1 300px;
+  }
+
+  .mid-text-header, .mid-text {
+    font-size: clamp(1.6rem, 2.5vw, 2.4rem);
+  }
+
+  /* Opening Hours */
+  .opening-hours-gqk {
+    position: static;
+    width: 90%;
+    max-width: 60rem;
+    height: auto;
+    margin: 3rem auto;
+    left: auto;
+    top: auto;
+  }
+
+  /* Decorative images - hide or scale */
+  .a-stroke-NrJ,
+  .o-stroke-eSS,
+  .b-Y5c {
+    display: none;
+  }
+
+  /* Coffee photos */
+  .liquid-maestro-desktop-VzE .auto-group-ftfg-UbG .pexels-cottonbro-studio-4667182-1-6XQ,
+  .liquid-maestro-desktop-VzE .auto-group-ftfg-UbG .pexels-cottonbro-studio-4667182-4-My8 {
+    position: static;
+    width: 100%;
+    max-width: 50rem;
+    height: auto;
+    margin: 2rem auto;
+    left: auto;
+    top: auto;
+  }
+
+  /* Cocktail Menu */
+  .cocktail-menu-Ej8 {
+    width: 100%;
+    height: auto;
+    position: static;
+    padding: 2rem;
+  }
+
+  .liquid-maestro-desktop-VzE .auto-group-dxgn-oYr .brewery-specials-wNe {
+    margin: 2rem 0;
+    text-align: center;
+  }
+
+  .liquid-maestro-desktop-VzE .auto-group-dxgn-oYr .auto-group-j3uq-ZoL {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .liquid-maestro-desktop-VzE .auto-group-dxgn-oYr .auto-group-j3uq-ZoL .cocktail-1-ucJ,
+  .cocktail-2-zLE {
+    position: static;
+    width: 100%;
+    max-width: 50rem;
+    height: auto;
+    margin: 0 auto;
+    left: auto;
+    top: auto;
+  }
+
+  .liquid-maestro-desktop-VzE .auto-group-dxgn-oYr .auto-group-j3uq-ZoL .cocktail-1-ucJ .image-3-2wp {
+    position: static;
+    width: 100%;
+    height: 25rem;
+    margin-bottom: 2rem;
+    left: auto;
+    top: auto;
+  }
+
+  .liquid-maestro-desktop-VzE .auto-group-dxgn-oYr .auto-group-j3uq-ZoL .cocktail-1-ucJ .symphony-in-gold-iZk,
+  .indulgent-harmony-h6E,
+  .aged-bourbon-honey-ginger-experience-the-symphony-of-flavors-as-aged-bourbon-blends-seamlessly-with-the-sweetness-of-honey-the-subtle-spice-of-ginger-z9t {
+    position: static;
+    width: 100%;
+    height: auto;
+    left: auto;
+    top: auto;
+    margin: 1rem 0;
+  }
+
+  .cocktail-2-zLE {
+    flex-direction: column;
+  }
+
+  .image-8-XLA {
+    width: 100%;
+    max-width: 30rem;
+    margin: 0 auto 2rem;
+  }
+
+  .vector-1-9AW {
+    display: none;
+  }
+
+  /* Footer */
+  .footer-d5g {
+    padding: 3rem 2rem;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .footer-d5g .auto-group-u5ui-KUJ {
+    margin: 0 0 2rem 0;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .vector-3QJ {
+    margin: 0;
+  }
+
+  .liquid-maestro-desktop-VzE .auto-group-ftfg-UbG {
+    height: auto;
+  }
+
+  .auto-group-dxgn-oYr {
+    position: static;
+  }
+}
+
+/* Mobile (480px and below) */
+@media (max-width: 480px) {
+  html { font-size: 50%; }
+
+  .pexels-charlotte-may-5947008-1-Ecv {
+    height: 50rem;
+  }
+
+  .liquid-maestro-desktop-VzE .auto-group-ftfg-UbG .header-nW2 .line-WqL .auto-group-5pur-daW .coffee-artistry-HHg {
+    font-size: clamp(3.5rem, 10vw, 6rem);
+  }
+
+  .intro-mGA {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+  }
+
+  .intro-mGA .auto-group-dbdg-zPp {
+    order: 2;
+  }
+
+  .intro-mGA .pexels-charlotte-may-5947024-copy-1-5Gr {
+    order: 1;
+    width: 100%;
+    max-width: 35rem;
+  }
+
+  .mid-text-header {
+    font-size: clamp(1.4rem, 4.5vw, 2rem);
+  }
+
+  .mid-text {
+    font-size: 1.6rem;
+  }
+
+  .button-primary-BXU {
+    width: auto;
+    padding: 1.2rem 2rem;
+    font-size: 1.6rem;
+  }
+
+  .opening-hours-gqk {
+    width: 95%;
+  }
+
+  .Credits {
+    position: static;
+    bottom: auto;
+    transform: none;
+    left: auto;
+  }
+}
+
+/* Extra small devices (360px and below) */
+@media (max-width: 360px) {
+  .pexels-charlotte-may-5947008-1-Ecv {
+    height: 45rem;
+  }
+
+  .liquid-maestro-desktop-VzE .auto-group-dxgn-oYr .auto-group-j3uq-ZoL .cocktail-1-ucJ .image-3-2wp {
+    height: 20rem;
+  }
+}
