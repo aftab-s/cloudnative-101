@@ -186,4 +186,13 @@ Security note
 
 That's it — you should now have a simple, local Kubernetes deployment running `aftab2010/coffee-artistry` on Minikube.
 
+Public Docker Hub repository
+---------------------------
+
+This demo image is published at:
+
+https://hub.docker.com/repository/docker/aftab2010/coffee-artistry/
+
+Use `aftab2010/coffee-artistry:latest` directly in your manifests, or push your own image under your Docker Hub username.
+
 I have added `deployment.yaml` to this folder. I also added a GitHub Actions workflow at `.github/workflows/docker-publish.yml` which builds the image from `CNCF/Sample/Dockerfile` and pushes it to Docker Hub using the `DOCKERHUB_USERNAME` and `DOCKERHUB_TOKEN` repository secrets. You can enable it by adding those secrets in your repository Settings → Secrets.

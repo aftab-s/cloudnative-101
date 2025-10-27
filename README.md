@@ -49,6 +49,8 @@ CI / Docker Hub
 
 - A GitHub Actions workflow was added at `.github/workflows/docker-publish.yml`. It builds the image from `CNCF/Sample` and pushes to Docker Hub using repository secrets `DOCKERHUB_USERNAME` and `DOCKERHUB_TOKEN`.
 - Note: `DOCKERHUB_TOKEN` should be a Docker Hub personal access token (recommended) rather than your account password. See `CNCF/Sample/README.md` for details.
+ - Public Docker Hub repository for this demo: https://hub.docker.com/repository/docker/aftab2010/coffee-artistry/
+	 You can pull the published image directly with `docker pull aftab2010/coffee-artistry:latest`.
 
 Kubernetes (Minikube) example
 ----------------------------

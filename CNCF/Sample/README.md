@@ -81,6 +81,19 @@ docker push <DOCKERHUB_USERNAME>/coffee-artistry:latest
 
 After pushing, the image will be available at https://hub.docker.com/r/<DOCKERHUB_USERNAME>/coffee-artistry
 
+Official public image
+---------------------
+
+If you want to use the already-published image for demos, there is a public image available at:
+
+https://hub.docker.com/repository/docker/aftab2010/coffee-artistry/
+
+You can pull it directly with:
+
+```powershell
+docker pull aftab2010/coffee-artistry:latest
+```
+
 ## Minimal GitHub Actions example (optional)
 
 Add this to `.github/workflows/docker-publish.yml` to build and push the image on every push to main (requires `DOCKERHUB_USERNAME` and `DOCKERHUB_TOKEN` secrets configured in the repository settings).
